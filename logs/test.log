@@ -10,3 +10,113 @@
 23:16:55.478 [main] INFO  com.api.filters.LoggingFilter - Response body
 23:16:55.561 [main] INFO  com.api.listeners.TestListener - Passed!
 23:16:55.563 [main] INFO  com.api.listeners.TestListener - Description!
+23:58:17.046 [main] INFO  com.api.listeners.TestListener - Test Started
+23:58:18.463 [main] INFO  com.api.filters.LoggingFilter - BASE URL: http://64.227.160.186:8080
+23:58:18.464 [main] INFO  com.api.filters.LoggingFilter - Request Headers: Accept=*/*
+Content-Type=application/json
+23:58:19.120 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+23:58:19.120 [main] INFO  com.api.filters.LoggingFilter - Response Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 16 Jul 2026 18:28:19 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+23:58:19.120 [main] INFO  com.api.filters.LoggingFilter - Response Body:
+io.restassured.internal.RestAssuredResponseImpl@642a16aa
+23:58:19.233 [main] INFO  com.api.listeners.TestListener - Passed!
+23:58:19.233 [main] INFO  com.api.listeners.TestListener - Description!
+23:58:19.237 [main] INFO  com.api.listeners.TestListener - Test Started
+23:58:19.257 [main] INFO  com.api.filters.LoggingFilter - BASE URL: http://64.227.160.186:8080
+23:58:19.257 [main] INFO  com.api.filters.LoggingFilter - Request Headers: Accept=*/*
+Content-Type=application/json
+23:58:19.375 [main] INFO  com.api.filters.LoggingFilter - Status Code: 400
+23:58:19.376 [main] INFO  com.api.filters.LoggingFilter - Response Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Thu, 16 Jul 2026 18:28:19 GMT
+Connection=close
+23:58:19.378 [main] INFO  com.api.filters.LoggingFilter - Response Body:
+io.restassured.internal.RestAssuredResponseImpl@33e434c8
+23:58:19.382 [main] INFO  com.api.listeners.TestListener - Passed!
+23:58:19.383 [main] INFO  com.api.listeners.TestListener - Description!
+23:59:22.352 [main] INFO  com.api.listeners.TestListener - Test Started
+23:59:23.570 [main] INFO  com.api.filters.LoggingFilter - BASE URL: http://64.227.160.186:8080
+23:59:23.570 [main] INFO  com.api.filters.LoggingFilter - Request Headers: Accept=*/*
+Content-Type=application/json
+23:59:24.153 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+23:59:24.153 [main] INFO  com.api.filters.LoggingFilter - Response Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 16 Jul 2026 18:29:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+23:59:24.153 [main] INFO  com.api.filters.LoggingFilter - Response Body:
+io.restassured.internal.RestAssuredResponseImpl@4116f66a
+23:59:24.233 [main] INFO  com.api.listeners.TestListener - Passed!
+23:59:24.234 [main] INFO  com.api.listeners.TestListener - Description!
+23:59:24.238 [main] INFO  com.api.listeners.TestListener - Test Started
+23:59:24.250 [main] INFO  com.api.filters.LoggingFilter - BASE URL: http://64.227.160.186:8080
+23:59:24.250 [main] INFO  com.api.filters.LoggingFilter - Request Headers: Accept=*/*
+Content-Type=application/json
+23:59:24.308 [main] INFO  com.api.filters.LoggingFilter - Status Code: 400
+23:59:24.308 [main] INFO  com.api.filters.LoggingFilter - Response Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Thu, 16 Jul 2026 18:29:24 GMT
+Connection=close
+23:59:24.309 [main] INFO  com.api.filters.LoggingFilter - Response Body:
+io.restassured.internal.RestAssuredResponseImpl@2e4389ed
+23:59:24.310 [main] INFO  com.api.listeners.TestListener - Passed!
+23:59:24.310 [main] INFO  com.api.listeners.TestListener - Description!

@@ -1,0 +1,11 @@
+com\api\base\BaseService.class
+com\api\test\SignUpAPITest.class
+com\api\filters\LoggingFilter.class
+com\api\base\UserManagementService.class
+com\api\listeners\TestListener.class
+com\api\test\LoginAPITest.class
+com\api\utils\Authorization.class
+com\api\base\AuthService.class
+com\api\test\ForgotsPassword.class
+com\api\test\UpdateProfileAPI.class
+com\api\test\GetUserAPI.class

@@ -15,22 +15,21 @@ public class LoggingFilter implements Filter {
 
 	public Response filter(FilterableRequestSpecification requestSpec, FilterableResponseSpecification responseSpec,
 			FilterContext ctx) {
+		logRequest(requestSpec);
 		Response response = ctx.next(requestSpec, responseSpec);
 		logResponse(response);
 		return response;
 	}
 
 	public void logRequest(FilterableRequestSpecification requestSpec) {
-		logger.info("BASE URL ", requestSpec.getBaseUri());
-		logger.info("Request headers ", requestSpec.getHeaders());
-		logger.info("Request Payload ", requestSpec.getBody());
-
+		logger.info("BASE URL: {}", requestSpec.getBaseUri());
+		logger.info("Request Headers: {}", requestSpec.getHeaders());
 	}
 
 	public void logResponse(Response response) {
-		logger.info("Status code", response.getStatusCode());
-		logger.info("Response headers", response.getHeaders());
-		logger.info("Response body", response.getBody().prettyPrint());
+		logger.info("Status Code: {}", response.getStatusCode());
+		logger.info("Response Headers: {}", response.getHeaders());
+		logger.info("Response Body:\n{}", response.getBody());
 
 	}
 

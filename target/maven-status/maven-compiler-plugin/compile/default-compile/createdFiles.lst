@@ -1,0 +1,7 @@
+com\api\models\request\SignUpRequest.class
+com\api\models\request\LoginRequest.class
+com\api\models\response\UserProfileResponse.class
+com\api\models\request\UpdateProfileRequest$Builder.class
+com\api\models\request\SignUpRequest$Builder.class
+com\api\models\request\UpdateProfileRequest.class
+com\api\models\response\LoginResponse.class
