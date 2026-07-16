@@ -1,9 +1,6 @@
 package com.api.base;
 
 import java.util.HashMap;
-import java.util.Map;
-
-import com.api.models.request.LoginRequest;
 
 import io.restassured.response.Response;
 

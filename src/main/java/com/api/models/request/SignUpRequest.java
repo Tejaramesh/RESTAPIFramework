@@ -9,7 +9,7 @@ public class SignUpRequest {
 	private String mobileNumber;
 	private String confirmPassword;
 
-	public SignUpRequest(String username, String password, String email, String firstName, String lastName,
+	private SignUpRequest(String username, String password, String email, String firstName, String lastName,
 			String mobileNumber, String confirmPassword) {
 		super();
 		this.username = username;

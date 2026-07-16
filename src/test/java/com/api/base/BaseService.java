@@ -1,15 +1,20 @@
 package com.api.base;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
 
-import com.api.models.request.LoginRequest;
+import com.api.filters.LoggingFilter;
 
+import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class BaseService {
 	private static final String BASEURL = "http://64.227.160.186:8080";
 	RequestSpecification requestSpecification;
+
+	static {
+		RestAssured.filters(new LoggingFilter());
+	}
 
 	public BaseService() {
 		requestSpecification = given().baseUri(BASEURL);
@@ -28,7 +33,7 @@ public class BaseService {
 	}
 
 	protected Response putRequest(Object payload, String endpoint) {
-		return requestSpecification.contentType("application/json").log().all().body(payload).when().put(endpoint);
+		return requestSpecification.contentType("application/json").body(payload).when().put(endpoint);
 
 	}
 

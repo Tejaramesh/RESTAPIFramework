@@ -19,6 +19,8 @@ public class UpdateProfileAPI {
 				.username("Teja").id(5687).email("tejarsmesh@gmail.com").mobileNumber("8217578543").build();
 		Response respo = user.updateProfile(token, reqPayload);
 		System.out.println(respo.asPrettyString());
+		System.out.println(respo.getTime());
+
 	}
 
 }

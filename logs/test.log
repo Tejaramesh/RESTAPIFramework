@@ -1,0 +1,12 @@
+23:11:34.490 [main] INFO  com.api.listeners.TestListener - Test Started
+23:11:36.629 [main] INFO  com.api.filters.LoggingFilter - Status code
+23:11:36.630 [main] INFO  com.api.filters.LoggingFilter - Response headers
+23:11:36.682 [main] INFO  com.api.filters.LoggingFilter - Response body
+23:11:36.768 [main] INFO  com.api.listeners.TestListener - Passed!
+23:11:36.768 [main] INFO  com.api.listeners.TestListener - Description!
+23:16:53.360 [main] INFO  com.api.listeners.TestListener - Test Started
+23:16:55.429 [main] INFO  com.api.filters.LoggingFilter - Status code
+23:16:55.429 [main] INFO  com.api.filters.LoggingFilter - Response headers
+23:16:55.478 [main] INFO  com.api.filters.LoggingFilter - Response body
+23:16:55.561 [main] INFO  com.api.listeners.TestListener - Passed!
+23:16:55.563 [main] INFO  com.api.listeners.TestListener - Description!

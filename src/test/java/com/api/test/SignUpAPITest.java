@@ -1,14 +1,9 @@
 package com.api.test;
 
-import static org.testng.Assert.assertEquals;
-
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.api.base.AuthService;
 import com.api.models.request.SignUpRequest;
-import com.api.models.request.SignUpRequest.Builder;
-import com.api.models.response.UserProfileResponse;
 
 import io.restassured.response.Response;
 
@@ -23,7 +18,7 @@ public class SignUpAPITest {
 
 		AuthService auth = new AuthService();
 		Response signUpResp = auth.signUp(signUpRequest);
-		 
-		
+
+
 	}
 }
