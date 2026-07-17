@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-16T23:59:22 IST" name="Surefire suite" finished-at="2026-07-16T23:59:24 IST" duration-ms="1996">
+  <suite started-at="2026-07-17T07:21:39 IST" name="API Testing Suite" finished-at="2026-07-17T07:21:42 IST" duration-ms="2674">
     <groups>
     </groups>
-    <test started-at="2026-07-16T23:59:22 IST" name="Surefire test" finished-at="2026-07-16T23:59:24 IST" duration-ms="1996">
+    <test started-at="2026-07-17T07:21:39 IST" name="API Test" finished-at="2026-07-17T07:21:42 IST" duration-ms="2674">
       <class name="com.api.test.SignUpAPITest">
-        <test-method signature="signUp()[pri:0, instance:com.api.test.SignUpAPITest@3b2c72c2]" started-at="2026-07-16T23:59:24 IST" name="signUp" finished-at="2026-07-16T23:59:24 IST" duration-ms="72" status="PASS">
+        <test-method signature="signUp()[pri:0, instance:com.api.test.SignUpAPITest@10db82ae]" started-at="2026-07-17T07:21:39 IST" name="signUp" finished-at="2026-07-17T07:21:41 IST" duration-ms="1731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
       </class> <!-- com.api.test.SignUpAPITest -->
+      <class name="com.api.test.ForgotsPassword">
+        <test-method signature="forgotPassword()[pri:0, instance:com.api.test.ForgotsPassword@402e37bc]" started-at="2026-07-17T07:21:41 IST" name="forgotPassword" finished-at="2026-07-17T07:21:41 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+      </class> <!-- com.api.test.ForgotsPassword -->
+      <class name="com.api.test.GetUserAPI">
+        <test-method signature="getUser()[pri:0, instance:com.api.test.GetUserAPI@13c10b87]" started-at="2026-07-17T07:21:42 IST" name="getUser" finished-at="2026-07-17T07:21:42 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+      </class> <!-- com.api.test.GetUserAPI -->
       <class name="com.api.test.LoginAPITest">
-        <test-method signature="login()[pri:0, instance:com.api.test.LoginAPITest@255b53dc]" started-at="2026-07-16T23:59:22 IST" name="login" finished-at="2026-07-16T23:59:24 IST" duration-ms="1886" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.api.test.LoginAPITest@1df82230]" started-at="2026-07-17T07:21:41 IST" name="login" finished-at="2026-07-17T07:21:41 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- com.api.test.LoginAPITest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      <class name="com.api.test.UpdateProfileAPI">
+        <test-method signature="updateProfile()[pri:0, instance:com.api.test.UpdateProfileAPI@22635ba0]" started-at="2026-07-17T07:21:41 IST" name="updateProfile" finished-at="2026-07-17T07:21:42 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProfile -->
+      </class> <!-- com.api.test.UpdateProfileAPI -->
+    </test> <!-- API Test -->
+  </suite> <!-- API Testing Suite -->
 </testng-results>

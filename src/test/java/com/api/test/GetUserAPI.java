@@ -26,7 +26,7 @@ public class GetUserAPI {
 		Response getresponse = ums.getprofile(response.getToken());
 		UserProfileResponse profileres = getresponse.as(UserProfileResponse.class);
 		System.out.println(getresponse.asPrettyString());
-		Assert.assertTrue(profileres.getMobileNumber().equals("7760287566"), "Invalid mobile number");
+		Assert.assertTrue(profileres.getMobileNumber().equals("8217578543"), "Invalid mobile number");
 
 	}
 

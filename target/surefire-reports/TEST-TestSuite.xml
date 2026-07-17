@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="2.75" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="3.43" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.1.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire14066863727580096587\surefirebooter-20260716235921344_3.jar C:\Users\admin\AppData\Local\Temp\surefire14066863727580096587 2026-07-16T23-59-21_190-jvmRun1 surefire-20260716235921344_1tmp surefire_0-20260716235921344_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire744079117659441455\surefirebooter-20260717072138750_3.jar C:\Users\admin\AppData\Local\Temp\surefire744079117659441455 2026-07-17T07-21-38_607-jvmRun1 surefire-20260717072138750_1tmp surefire_0-20260717072138750_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\admin\eclipse-workspace\APIFrameworkScratch\target\test-classes;C:\Users\admin\eclipse-workspace\APIFrameworkScratch\target\classes;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\admin\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\admin\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.26.1\log4j-api-2.26.1.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.26.1\log4j-core-2.26.1.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.22.1\jackson-databind-2.22.1.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.22\jackson-annotations-2.22.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.22.1\jackson-core-2.22.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire14066863727580096587\surefirebooter-20260716235921344_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire744079117659441455\surefirebooter-20260717072138750_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS"/>
@@ -48,7 +48,6 @@
     <property name="java.version" value="25.0.1"/>
     <property name="user.dir" value="C:\Users\admin\eclipse-workspace\APIFrameworkScratch"/>
     <property name="os.arch" value="amd64"/>
-    <property name="Regression" value="true"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
@@ -61,50 +60,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="login" classname="com.api.test.LoginAPITest" time="1.878">
-    <system-out><![CDATA[23:59:22.352 [main] INFO  com.api.listeners.TestListener - Test Started
-23:59:23.570 [main] INFO  com.api.filters.LoggingFilter - BASE URL: http://64.227.160.186:8080
-23:59:23.570 [main] INFO  com.api.filters.LoggingFilter - Request Headers: Accept=*/*
+  <testcase name="signUp" classname="com.api.test.SignUpAPITest" time="1.726">
+    <system-out><![CDATA[07:21:39.767 [main] INFO  com.api.listeners.TestListener - Test Started
+07:21:41.004 [main] INFO  com.api.filters.LoggingFilter - BASE URL: http://64.227.160.186:8080
+07:21:41.004 [main] INFO  com.api.filters.LoggingFilter - Request Headers: Accept=*/*
 Content-Type=application/json
-23:59:24.153 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
-23:59:24.153 [main] INFO  com.api.filters.LoggingFilter - Response Headers: Vary=Origin
-Vary=Access-Control-Request-Method
-Vary=Access-Control-Request-Headers
-Access-Control-Allow-Origin=https://swift.techwithjatin.com
-Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
-Access-Control-Max-Age=3600
-Access-Control-Allow-Headers=Authorization, Content-Type, Accept
-Access-Control-Allow-Credentials=true
-X-Content-Type-Options=nosniff
-X-XSS-Protection=0
-Cache-Control=no-cache, no-store, max-age=0, must-revalidate
-Pragma=no-cache
-Expires=0
-X-Frame-Options=DENY
-Content-Type=application/json
-Transfer-Encoding=chunked
-Date=Thu, 16 Jul 2026 18:29:24 GMT
-Keep-Alive=timeout=60
-Connection=keep-alive
-23:59:24.153 [main] INFO  com.api.filters.LoggingFilter - Response Body:
-io.restassured.internal.RestAssuredResponseImpl@4116f66a
-{"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJUZWphIiwiaWF0IjoxNzg0MjI2NTY0LCJleHAiOjE3ODQyMzAxNjR9.7LoqCGg1pyhM_nlsPAQJ3ME2A17-NQibwzk6BV8C78Q","type":"Bearer","id":5687,"username":"Teja","email":"tejarsmesh@gmail.com","roles":["ROLE_USER"]}
-eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJUZWphIiwiaWF0IjoxNzg0MjI2NTY0LCJleHAiOjE3ODQyMzAxNjR9.7LoqCGg1pyhM_nlsPAQJ3ME2A17-NQibwzk6BV8C78Q
-]]></system-out>
-    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
-SLF4J(W): Defaulting to no-operation (NOP) logger implementation
-SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-]]></system-err>
-  </testcase>
-  <testcase name="signUp" classname="com.api.test.SignUpAPITest" time="0.068">
-    <system-out><![CDATA[23:59:24.233 [main] INFO  com.api.listeners.TestListener - Passed!
-23:59:24.234 [main] INFO  com.api.listeners.TestListener - Description!
-23:59:24.238 [main] INFO  com.api.listeners.TestListener - Test Started
-23:59:24.250 [main] INFO  com.api.filters.LoggingFilter - BASE URL: http://64.227.160.186:8080
-23:59:24.250 [main] INFO  com.api.filters.LoggingFilter - Request Headers: Accept=*/*
-Content-Type=application/json
-23:59:24.308 [main] INFO  com.api.filters.LoggingFilter - Status Code: 400
-23:59:24.308 [main] INFO  com.api.filters.LoggingFilter - Response Headers: Vary=Origin
+07:21:41.492 [main] INFO  com.api.filters.LoggingFilter - Status Code: 400
+07:21:41.492 [main] INFO  com.api.filters.LoggingFilter - Response Headers: Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -120,10 +82,213 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=text/plain;charset=UTF-8
 Content-Length=33
-Date=Thu, 16 Jul 2026 18:29:24 GMT
+Date=Fri, 17 Jul 2026 01:51:41 GMT
 Connection=close
-23:59:24.309 [main] INFO  com.api.filters.LoggingFilter - Response Body:
-io.restassured.internal.RestAssuredResponseImpl@2e4389ed
+07:21:41.492 [main] INFO  com.api.filters.LoggingFilter - Response Body:
+io.restassured.internal.RestAssuredResponseImpl@21bd128b
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="forgotPassword" classname="com.api.test.ForgotsPassword" time="0.111">
+    <system-out><![CDATA[07:21:41.495 [main] INFO  com.api.listeners.TestListener - Passed!
+07:21:41.496 [main] INFO  com.api.listeners.TestListener - Description!
+07:21:41.499 [main] INFO  com.api.listeners.TestListener - Test Started
+07:21:41.518 [main] INFO  com.api.filters.LoggingFilter - BASE URL: http://64.227.160.186:8080
+07:21:41.518 [main] INFO  com.api.filters.LoggingFilter - Request Headers: Accept=*/*
+Content-Type=application/json
+07:21:41.582 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+07:21:41.582 [main] INFO  com.api.filters.LoggingFilter - Response Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 17 Jul 2026 01:51:41 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+07:21:41.582 [main] INFO  com.api.filters.LoggingFilter - Response Body:
+io.restassured.internal.RestAssuredResponseImpl@5e5beb8a
+{
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="login" classname="com.api.test.LoginAPITest" time="0.252">
+    <system-out><![CDATA[07:21:41.616 [main] INFO  com.api.listeners.TestListener - Passed!
+07:21:41.617 [main] INFO  com.api.listeners.TestListener - Description!
+07:21:41.618 [main] INFO  com.api.listeners.TestListener - Test Started
+07:21:41.634 [main] INFO  com.api.filters.LoggingFilter - BASE URL: http://64.227.160.186:8080
+07:21:41.635 [main] INFO  com.api.filters.LoggingFilter - Request Headers: Accept=*/*
+Content-Type=application/json
+07:21:41.767 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+07:21:41.769 [main] INFO  com.api.filters.LoggingFilter - Response Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 17 Jul 2026 01:51:41 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+07:21:41.770 [main] INFO  com.api.filters.LoggingFilter - Response Body:
+io.restassured.internal.RestAssuredResponseImpl@2ffe243f
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJUZWphIiwiaWF0IjoxNzg0MjUzMTAxLCJleHAiOjE3ODQyNTY3MDF9.P4N_-8wSdCF9avTDHFSMapxl7Sl2kvzjQnlhTyhPj7o","type":"Bearer","id":5687,"username":"Teja","email":"tejarsmesh@gmail.com","roles":["ROLE_USER"]}
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJUZWphIiwiaWF0IjoxNzg0MjUzMTAxLCJleHAiOjE3ODQyNTY3MDF9.P4N_-8wSdCF9avTDHFSMapxl7Sl2kvzjQnlhTyhPj7o
+]]></system-out>
+  </testcase>
+  <testcase name="updateProfile" classname="com.api.test.UpdateProfileAPI" time="0.294">
+    <system-out><![CDATA[07:21:41.874 [main] INFO  com.api.listeners.TestListener - Passed!
+07:21:41.875 [main] INFO  com.api.listeners.TestListener - Description!
+07:21:41.876 [main] INFO  com.api.listeners.TestListener - Test Started
+07:21:41.885 [main] INFO  com.api.filters.LoggingFilter - BASE URL: http://64.227.160.186:8080
+07:21:41.886 [main] INFO  com.api.filters.LoggingFilter - Request Headers: Accept=*/*
+Content-Type=application/json
+07:21:42.024 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+07:21:42.025 [main] INFO  com.api.filters.LoggingFilter - Response Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 17 Jul 2026 01:51:41 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+07:21:42.026 [main] INFO  com.api.filters.LoggingFilter - Response Body:
+io.restassured.internal.RestAssuredResponseImpl@7412a438
+07:21:42.080 [main] INFO  com.api.filters.LoggingFilter - BASE URL: http://64.227.160.186:8080
+07:21:42.081 [main] INFO  com.api.filters.LoggingFilter - Request Headers: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJUZWphIiwiaWF0IjoxNzg0MjUzMTAxLCJleHAiOjE3ODQyNTY3MDF9.P4N_-8wSdCF9avTDHFSMapxl7Sl2kvzjQnlhTyhPj7o
+Accept=*/*
+Content-Type=application/json
+07:21:42.167 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+07:21:42.167 [main] INFO  com.api.filters.LoggingFilter - Response Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 17 Jul 2026 01:51:41 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+07:21:42.169 [main] INFO  com.api.filters.LoggingFilter - Response Body:
+io.restassured.internal.RestAssuredResponseImpl@3cdc7b09
+{
+    "id": 5687,
+    "username": "Teja",
+    "email": "tejarsmesh@gmail.com",
+    "firstName": "Teja",
+    "lastName": "r",
+    "mobileNumber": "8217578543"
+}
+75
+]]></system-out>
+  </testcase>
+  <testcase name="getUser" classname="com.api.test.GetUserAPI" time="0.232">
+    <system-out><![CDATA[07:21:42.172 [main] INFO  com.api.listeners.TestListener - Passed!
+07:21:42.172 [main] INFO  com.api.listeners.TestListener - Description!
+07:21:42.173 [main] INFO  com.api.listeners.TestListener - Test Started
+07:21:42.183 [main] INFO  com.api.filters.LoggingFilter - BASE URL: http://64.227.160.186:8080
+07:21:42.183 [main] INFO  com.api.filters.LoggingFilter - Request Headers: Accept=*/*
+Content-Type=application/json
+07:21:42.320 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+07:21:42.320 [main] INFO  com.api.filters.LoggingFilter - Response Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 17 Jul 2026 01:51:41 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+07:21:42.321 [main] INFO  com.api.filters.LoggingFilter - Response Body:
+io.restassured.internal.RestAssuredResponseImpl@10850d17
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJUZWphIiwiaWF0IjoxNzg0MjUzMTAxLCJleHAiOjE3ODQyNTY3MDF9.P4N_-8wSdCF9avTDHFSMapxl7Sl2kvzjQnlhTyhPj7o
+07:21:42.347 [main] INFO  com.api.filters.LoggingFilter - BASE URL: http://64.227.160.186:8080
+07:21:42.347 [main] INFO  com.api.filters.LoggingFilter - Request Headers: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJUZWphIiwiaWF0IjoxNzg0MjUzMTAxLCJleHAiOjE3ODQyNTY3MDF9.P4N_-8wSdCF9avTDHFSMapxl7Sl2kvzjQnlhTyhPj7o
+Accept=*/*
+Content-Type=application/json
+07:21:42.403 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+07:21:42.403 [main] INFO  com.api.filters.LoggingFilter - Response Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 17 Jul 2026 01:51:41 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+07:21:42.404 [main] INFO  com.api.filters.LoggingFilter - Response Body:
+io.restassured.internal.RestAssuredResponseImpl@cfd1075
+{
+    "id": 5687,
+    "username": "Teja",
+    "email": "tejarsmesh@gmail.com",
+    "firstName": "Teja",
+    "lastName": "r",
+    "mobileNumber": "8217578543"
+}
 ]]></system-out>
   </testcase>
 </testsuite>

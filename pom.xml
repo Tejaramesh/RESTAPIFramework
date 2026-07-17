@@ -9,8 +9,6 @@
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<!-- Source: https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
@@ -62,7 +60,7 @@
 						<version>3.5.2</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>${suite}.xml</suiteXmlFile>
+								<suiteXmlFile>suite.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
